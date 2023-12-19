@@ -23,6 +23,12 @@ const app = {
     config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
     songs: [
         {
+            name: 'Muon roi ma sao con',
+            singer: 'Son Tung',
+            path: 'assets/music/MuonRoiMaSaoCon.mp3',
+            image: 'assets/images/MuonRoiMaSaoCon.jpg'
+        },
+        {
             name: 'Anh da on hon',
             singer: 'MCK',
             path: 'assets/music/AnhDaOnHon.mp3',
