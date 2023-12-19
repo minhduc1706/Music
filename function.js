@@ -23,6 +23,12 @@ const app = {
     config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
     songs: [
         {
+            name: 'Anh da on hon',
+            singer: 'MCK',
+            path: 'assets/music/AnhDaOnHon.mp3',
+            image: 'assets/images/AnhDaOnHon.jpg'
+        },
+        {
             name: 'Anh van luon nhu vay',
             singer: 'Bray',
             path: 'assets/music/AnhVanLuonNhuVay.mp3',
@@ -32,7 +38,7 @@ const app = {
             name: 'Du tien',
             singer: 'Bray',
             path: 'assets/music/DuTien.mp3',
-            image: 'assets/images/Dutien.jpg'
+            image: 'assets/images/DuTien.jpg'
         },
         {
             name: 'Con trai cung',
